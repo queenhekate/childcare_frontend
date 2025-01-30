@@ -8,24 +8,31 @@ align-items: center;
 }
 
 .main__text {
-    display: flex;
+display: flex;
 flex-direction: column;
 align-items: center;
+margin: 0;
+padding: 0;
 }
 
 .main__header {
-font-size: large;
+font-size: 40px;
+color: #132d61;
+margin: 0;
+padding: 0;
 }
 
 .main__welcome {
-    font-size: medium;
-    max-width: 500px;
+    font-size: 18px;
+    max-width: 460px;
     max-height: 300px;
+    color: #4d596c;
 }
 
 .main__image-welcome {
     height: 500px;
-    width: 350px;;
+    width: 350px;
+    border-radius: 10px;
 }
 
 .main__booking-container {
@@ -38,6 +45,7 @@ justify-content: space-around;
 .main__booking-image {
   width: 500px;
   height: 350px;
+  border-radius: 10px;
 }
 
 .main__booking-wrap {

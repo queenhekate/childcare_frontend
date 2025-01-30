@@ -11,7 +11,7 @@ function Header() {
       <p className="header__logo-text">Child of Nature Daycare</p>
       </div>
       <div className="header__menu-container">
-        <p className="header__menu-text">About</p>
+        <p className="header__menu-text">About Us</p>
         <p className="header__menu-text">Curriculum</p>
         <p className="header__menu-text">FAQ</p>
         <p className="header__menu-text">For Parents</p>

@@ -11,9 +11,9 @@ const Footer = () => {
       <div className="footer__column">
         <h3>Contact</h3>
         <ul>
-          <li>Email: contact@yourdaycare.com</li>
-          <li>Phone: (123) 456-7890</li>
-          <li>Address: 123 Daycare Lane, City, State</li>
+          <li>Email: childofnaturedaycare@gmail.com</li>
+          <li>Phone: (619) 782-8805</li>
+          <li>Address: San Diego, CA 92109</li>
         </ul>
       </div>
       <div className="footer__column">

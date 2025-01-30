@@ -3,6 +3,7 @@ import "./Main.css";
 import Carousel from "../Carousel/Carousel";
 import welcomeImage from "../../assets/welcome.jpg";
 import bookingImage from "../../assets/booking.jpg"
+import dividerImage from "../../assets/divider.png"
 
 function Main() {
       const animateButton = (e) => {
@@ -26,7 +27,9 @@ function Main() {
         environment where your little ones can thrive. Our home daycare 
         is designed to feel just like family — with personalized care, 
         fun activities, and a focus on each child's growth and 
-        development. Every day is an adventure filled with learning, 
+        development. 
+        
+        Every day is an adventure filled with learning, 
         laughter, and lots of cuddles. Whether it's exploring creativity, 
         learning new skills, or simply making new friends, we're here to 
         ensure your child feels safe, happy, and loved. Thank you for 
