@@ -1,38 +1,20 @@
 import React from 'react';
 import "./Header.css";
-import headerLogo from "../../assets/logo.png";
+import headerLogo from "../../assets/seashell.png";
 
 function Header() {
-  // Event handler to trigger animation
-  const animateButton = (e) => {
-    e.preventDefault();
-
-    // Access the button element
-    const button = e.target;
-
-    // Reset animation
-    button.classList.remove('animate');
-
-    // Add animation class
-    button.classList.add('animate');
-
-    // Remove animation class after 700ms
-    setTimeout(() => {
-      button.classList.remove('animate');
-    }, 700);
-  };
 
   return (
     <header className="header">
+      <div className="header__logo-container">
       <img src={headerLogo} alt="App logo" className="header__logo" />
-      <button
-        className="header__booking-btn bubbly-button" // Add bubbly-button class for animation
-        onClick={animateButton} // Bind animateButton on click
-      >
-        Schedule a Visit
-      </button>
+      <p className="header__logo-text">Child of Nature</p>
+      </div>
       <div className="header__menu-container">
-        <p className="header__about">About</p>
+        <p className="header__menu-text">About</p>
+        <p className="header__menu-text">Curriculum</p>
+        <p className="header__menu-text">FAQ</p>
+        <p className="header__menu-text">For Parents</p>
       </div>
     </header>
   );

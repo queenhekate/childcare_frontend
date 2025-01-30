@@ -11,6 +11,10 @@
         {
             "src": "./assets/carousel1.jpg",
             "alt": "Carousel Image 3"
+        },
+        {
+            "src": "./assets/carousel4.jpg",
+            "alt": "Carousel Image 4"
         }
     ]
 }
