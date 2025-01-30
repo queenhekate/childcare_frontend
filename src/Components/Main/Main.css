@@ -28,17 +28,42 @@ font-size: large;
     width: 350px;;
 }
 
-.main__booking {
-    padding: 40px 30px;
+.main__booking-container {
+padding: 40px 30px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.main__booking-image {
+  width: 500px;
+  height: 350px;
+}
+
+.main__booking-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .main__booking-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: left;
+    width: 465px;
+    color: #4d596c;
+  font-size: 18px;
+  padding: 40px;
+}
+
+.main__booking-heading {
+  font-size: 40px;
+  color: #132d61;
 }
 
 .main__booking-btn{
+  max-width: 200px;
     z-index: 999;
   display: inline-block;
   font-size: 1em;

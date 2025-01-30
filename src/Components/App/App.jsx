@@ -1,12 +1,14 @@
 import './App.css'
 import Header from '../Header/Header'
 import Main from '../Main/Main'
+import Footer from '../Footer/Footer';
 
 function App() {
 return <div className="page">
   <div className="page-content">
-    <Header></Header>
-    <Main></Main>
+    <Header />
+    <Main />
+    <Footer />
   </div>
   </div>
 }

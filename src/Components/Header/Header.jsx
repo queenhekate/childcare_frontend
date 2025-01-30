@@ -8,7 +8,7 @@ function Header() {
     <header className="header">
       <div className="header__logo-container">
       <img src={headerLogo} alt="App logo" className="header__logo" />
-      <p className="header__logo-text">Child of Nature</p>
+      <p className="header__logo-text">Child of Nature Daycare</p>
       </div>
       <div className="header__menu-container">
         <p className="header__menu-text">About</p>

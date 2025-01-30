@@ -37,10 +37,10 @@ function Main() {
     </section>
     <section>
         <div className="main__booking-container">
-             <img src={bookingImage} alt="App logo" className="main__booking-image" />
+             <img src={bookingImage} alt="Schedule a Tour" className="main__booking-image" />
        <div className="main__booking-wrap">
         <div className="main__booking-text">
-        <h2>Take the Next Step</h2>
+        <h2 className="main__booking-heading">Take the Next Step</h2>
         <p>Schedule a meeting with us to get a tour of our daycare. 
         See our classrooms, ask questions about tuition, openings 
         and our enrollment process. Find out how we’ll help your 
