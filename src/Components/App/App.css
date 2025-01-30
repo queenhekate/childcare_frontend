@@ -1,9 +1,11 @@
 .page {
-  background-color: antiquewhite;
+  background-color: #f8faff;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 .page_wrapper {
   max-width: 1360px;
   margin: 0 auto;
+  padding: 0 20px;
 
 }
