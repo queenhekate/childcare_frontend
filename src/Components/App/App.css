@@ -1,0 +1,9 @@
+.page {
+  background-color: antiquewhite;
+}
+
+.page_wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+
+}
