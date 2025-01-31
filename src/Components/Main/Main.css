@@ -19,7 +19,7 @@ padding: 0;
 font-size: 40px;
 color: #132d61;
 margin: 0;
-padding: 0;
+padding: 20px;
 }
 
 .main__welcome {
@@ -72,7 +72,7 @@ justify-content: space-around;
 
 .main__booking-btn{
   max-width: 200px;
-    z-index: 999;
+  z-index: 999;
   display: inline-block;
   font-size: 1em;
   padding: 1em 2em;

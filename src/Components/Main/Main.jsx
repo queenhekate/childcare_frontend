@@ -52,7 +52,7 @@ function Main() {
         className="main__booking-btn bubbly-button" // Add bubbly-button class for animation
         onClick={animateButton} // Bind animateButton on click
       >
-        Schedule a Visit
+        Schedule a Tour
       </button>
       </div> 
       </div>
