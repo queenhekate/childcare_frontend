@@ -3,7 +3,6 @@ import "./Main.css";
 import Carousel from "../Carousel/Carousel";
 import welcomeImage from "../../assets/welcome.jpg";
 import bookingImage from "../../assets/booking.jpg"
-import dividerImage from "../../assets/divider.png"
 
 function Main() {
       const animateButton = (e) => {
